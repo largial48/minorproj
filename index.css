@@ -19,6 +19,17 @@ body{
     padding: 15px;
     margin-right: 1325px;
 }   
+#fu{
+    background-color: rgb(223, 233, 230);
+}
+footer{
+    background-color: rgb(15, 15, 14);
+}
+#se{
+    margin: 100px;
+    margin-top: 40px;
+    background-color: rgb(198, 233, 103);    
+}
 img{
         display: block;
         margin: 0%;
@@ -30,13 +41,10 @@ img{
 #he{
     margin: 35px;
 }
-section{
-    display: inline;
-    width: 50%;
-    float: left;
 }
 h1{
     text-align: center;
+    font-style:inherit;
 }
 #ge{
     text-align: center;
@@ -44,10 +52,9 @@ h1{
 #mg{
     content: "";
     display: block;
-    border-radius: 50%;
-    width: 520px;
-    margin-left: 70px;
-    height: 370px;
+    border-radius: 70%;
+    width: 320px;
+    height: 250px;
     z-index: 1;
     top: 0;
     left: 0;
