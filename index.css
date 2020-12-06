@@ -3,6 +3,18 @@ body{
     margin: 10px;
     font-style: italic;
 }
+h1{
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+
+    font-style: italic;
+
+    font-weight: bold;
+}
+nav{
+    margin: 15px;
+    background-color: rgb(243, 227, 8);
+}
 #sp{
     background-color: rgb(238, 230, 220);
     padding: 5px;
@@ -28,7 +40,9 @@ footer{
 #se{
     margin: 100px;
     margin-top: 40px;
-    background-color: rgb(198, 233, 103);    
+    background-color: rgb(198, 233, 103); 
+    border: 5px solid gray;
+    padding: 7px;   
 }
 img{
         display: block;
@@ -38,13 +52,11 @@ img{
         height: 170px;
         background-color: white;
 }
+}
 #he{
     margin: 35px;
-}
-}
-h1{
-    text-align: center;
-    font-style:inherit;
+    margin-top: 35px;
+    padding: 15px;
 }
 #ge{
     text-align: center;
